@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(./image/loginimg.jpg);
+    min-height: 100vh;
+    max-height: 300vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.log-in-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.697);
+}
+.email input{
+    margin: 20px;
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #6e6e6e;
+    background-color: rgba(255, 255, 255, 0.362);
+    font-size: 1.01em;
+    font-family: sans-serif;
+    outline: none;
+    padding-left: 5px;
+}
+.password input{
+    margin: 20px;
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #6e6e6e;
+    background-color: rgba(255, 255, 255, 0.378);
+    font-size: 1.01em;
+    font-family: sans-serif;
+    outline: none;
+    padding-left: 5px;
+}
+.bloodgroup input{
+    margin: 20px;
+    width: 90%;
+    height: 60px;
+    border: none;
+    border-bottom: 2px solid #6e6e6e;
+    background-color: rgba(255, 255, 255, 0.378);
+    font-size: 1.01em;
+    font-family: sans-serif;
+    outline: none;
+    padding-left: 5px;
+}
+.receiver-staff{
+    margin-right: 20px;
+}
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
+label{
+    font-size: 1.15em;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.697);
+    font-weight: 600;
+}
+label:hover{
+    cursor: pointer;
+}
+.receiver-staff input{
+    margin: 20px;
+    margin-right: 1px;
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+    height: 61px;
+    border: none;
+    border-bottom: 3px solid #6e6e6e;
+    background-color: #2195f3cd;
+    font-size: 1.35em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+button:hover{
+    background-color: #1976d2b7;
+    cursor: pointer;
+}
+.create_link{
+    font-size: 0.95em;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 10px;
+}

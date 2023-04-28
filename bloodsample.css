@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.index_container{
+    min-width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(199, 0, 0, 0.915);
+}
+.navbar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+#navbar-logo img{
+    margin-left: 30px;
+    margin-top: 4px;
+}
+#login-icon{
+    margin-right: 60px;
+    border: none;
+    margin-top: 18px;
+    height: 20px;
+}
+#login-btn{
+    font-size: 1.252em;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 181);
+}
+.main-body{
+    display: flex;
+    flex-direction: row;
+}
+.left-container{
+    width: 18%;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+}
+.left-container-options{
+    min-width: 18%;
+    height: 50px;
+    text-align: center;
+}
+#left-container-option-first{
+    background-color: #a0aeb8;
+}
+.left-container-options:hover{
+    background-color: #8e9ba4;
+}
+.left-container-options a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+/*Responsiveness for mobile */
+@media screen and (max-width: 450px){
+    [class="main-body"]{
+        flex-direction: column;
+    }
+    [class="left-container"]{
+        width: 100%;
+    }
+}
+.right-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    background:  #C6D6E2;
+}
+@media  screen and (max-width: 450px) {
+    [class="right-container"]{
+        width: 100%;
+    }
+    [class="blood-groupbox"]{
+        margin-left: 65px;
+    }
+}
+.blood-group-box img{
+    height: 100px;
+    margin-top: 10px;
+}
+.blood-group-box{
+    min-width: 25%;
+    background:  #e0eaf3;
+    height: 200px;
+    border: 5px solid #d6e6f3;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 50px;
+    justify-content: center;
+}
+@media  screen and (max-width: 450px){
+    [class="blood-group-box"]{
+        margin-left: 95px;
+    }
+}
+.blood-group-box button{
+    border: 3px solid #ebad00e2;
+    background-color: #ffbd03;
+    border-radius: 5px;
+    font-size: 1.05em;
+    margin-top: 8px;
+}
+.blood-group-box button:hover{
+    background-color: rgb(241, 255, 47);
+    border: 4px solid rgb(240, 255, 36);
+    cursor: pointer;
+}
+#available-units{
+    font-size: 0.8em;
+}
